@@ -70,5 +70,4 @@ Multi-branch scan trigger 3
 Multi-branch scan trigger 4
 
 ###
-
-testing weebhook & Jenkins integration
+Testing a webhook & Jenkins integration
