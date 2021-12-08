@@ -35,7 +35,9 @@ mvn clean prepare-package war:war
 ### Docker Container
 
 ```sh
-docker build -t autotrader:latest Dockerfile .
+docker build -t greetings:latest  .
+
+docker run -d --rm -p 8888:8080 --name ms-greetings greetings
 ```
 
 ## Integration Tests
