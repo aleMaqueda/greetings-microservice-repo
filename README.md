@@ -39,6 +39,7 @@ docker build -t greetings:latest  .
 
 docker run -d -p 8080:8080 --name ms-greetings --restart unless-stopped --log-opt max-size=5m --log-opt max-file=3 --memory 200m --cpus=".3" greetings
 ```
+https://docs.docker.com/config/containers/resource_constraints/
 
 ## Integration Tests
 
