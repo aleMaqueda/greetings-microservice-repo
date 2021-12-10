@@ -14,6 +14,9 @@ The following HTTP requests are covered:
 
 - GET/POST /greetings/* - respond with a message related to `Status 404 ...`
 
+
+If you uses greetings:jar image then  you shouldn't use the context /greetings, only /
+
 ## Technology
 
 - Java 1.8
@@ -36,6 +39,11 @@ mvn clean prepare-package war:war
 
 ```sh
 docker build -t greetings:latest  .
+
+or
+docker build -t greetings:jar -f Dockerfile-jar .
+
+and 
 
 docker run -d -p 8080:8080 --name ms-greetings --restart unless-stopped --log-opt max-size=5m --log-opt max-file=3 --memory 200m --cpus=".3" greetings
 ```
