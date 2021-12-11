@@ -86,4 +86,10 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+	    <repository>
+        	<id>artifactory</id>
+	        <url>http://34.122.33.175:8081/artifactory/demo-repo</url>
+	    </repository>
+	</distributionManagement>
 </project>

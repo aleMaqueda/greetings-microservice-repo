@@ -29,7 +29,7 @@ If you uses greetings:jar image then  you shouldn't use the context /greetings, 
 
 The following commands build a WAR file to be deployed to a dockerized Tomcat.
 
-### WAR File
+### JAR File
 
 ```sh
 mvn clean prepare-package war:war
