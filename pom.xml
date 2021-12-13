@@ -88,8 +88,8 @@
 
 	<distributionManagement>
 	    <repository>
-        	<id>artifactory</id>
-	        <url>http://34.122.33.175:8081/artifactory/demo-repo</url>
+        	<id>nexus</id>
+		<url>http://35.224.11.111:8081/repository/developer-repo/</url>
 	    </repository>
 	</distributionManagement>
 </project>
