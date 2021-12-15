@@ -88,7 +88,7 @@
 
 	<distributionManagement>
 	    <repository>
-        	<id>artifactory</id>
+        	<id>nexus</id>
 	        <url>http://34.136.2.190:8080/repository/invias/</url>
 	    </repository>
 	</distributionManagement>
