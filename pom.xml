@@ -85,4 +85,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	<!--comments
+	  <repositories>
+	    <repository>
+	      <id>my-internal-site</id>
+	      <url>https://myserver/repo</url>
+	    </repository>
+	  </repositories>
+	-->
 </project>
